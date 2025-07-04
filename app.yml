@@ -1,0 +1,6 @@
+command: ["uvicorn", "databricks.labs.mcp.servers.unity_catalog.app:app"]
+env:
+  - name: SCHEMA_FULL_NAME
+    value: main.information_schema
+  - name: GENIE_SPACE_IDS
+    value: '["01f056678300172eb2806a091a0ae005"]'
